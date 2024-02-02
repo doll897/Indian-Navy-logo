@@ -1,0 +1,47 @@
+.flag {
+    height: 600px;
+    width: 900px;
+    background-color: #ff9933; /* Saffron */
+    text-align: center;
+    border: 1px solid white;
+    position: relative;
+    margin-left: 100px;
+    margin-top:100px;
+    border:2px solid black;
+  }
+  
+  .flag>div {
+    background-color: #138808; /* Green */
+    position: absolute;
+    height: 200px;
+    top: 200px;
+    width: 900px;
+    border:2px solid black;
+  
+  }
+  
+  .flag>div>div {
+    position: absolute;
+    color: #138808; /* Green */
+    background-color: white;
+  
+    left: 350px;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    border:2px solid black;
+  }
+  
+  .flag>div div p {
+    color: #000080; /* Navy Blue */
+    
+  }
+  
+  p {
+    font-size: 8rem;
+    color: white;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  }
